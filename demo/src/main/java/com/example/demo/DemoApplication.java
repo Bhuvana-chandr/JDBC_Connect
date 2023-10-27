@@ -12,7 +12,7 @@ public class DemoApplication {
 		String driver ="com.mysql.jdbc.Driver";
 		String url ="jdbc:mysql://localhost:3306/Sietk";
 		String username ="root";
-		String password ="7569*@Bullet";
+		String password ="Enter your mysql password";
 		Class.forName(driver);
 
 		Connection con =DriverManager.getConnection(url,username,password);
